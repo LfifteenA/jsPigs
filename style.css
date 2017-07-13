@@ -1,0 +1,63 @@
+body {
+  background-image: url(images/spacebackground.jpg);
+  background-size: cover;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+h1:hover {
+  color: #36DBBF;
+}
+
+#stage {
+	/*border: solid 10px teal;*/
+	width: 800px;
+	height: 600px;
+  margin: auto;
+	position: relative;
+}
+
+/*-------------------------------------
+| Mushroom Houses
+-------------------------------------*/
+#stage .houseblue {
+  position: absolute;
+  left: 10px;
+  top: 367px;
+}
+
+#stage .housegreen {
+  position: absolute;
+  left: 280px;
+  top: 367px;
+}
+
+#stage .housepurple {
+  position: absolute;
+  left: 550px;
+  top: 367px;
+}
+
+/*-------------------------------------
+| Pigs
+-------------------------------------*/
+#stage .pigmiddle {
+  position: absolute;
+  left: 207px;
+  top: 220px;
+}
+
+#stage .pigtopleft {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+#stage .pigright {
+  position: absolute;
+  left: 580px;
+  top: 115px;
+}
